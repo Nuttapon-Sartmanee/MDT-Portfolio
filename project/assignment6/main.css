@@ -1,0 +1,46 @@
+body {
+    background-color: aliceblue;
+}
+
+legend {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+fieldset.register {
+    border: 5px groove deeppink;
+    padding: 5%;
+}
+
+fieldset.login {
+    border: 5px groove deepskyblue;
+    padding: 5%;
+}
+
+span {
+    color: red;
+}
+
+#RegisterMenu {
+    line-height: 40px;
+    background-color: pink;
+    border: 10px dotted palevioletred;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    padding: 50px;
+    width: 50%;
+    text-align: left;
+}
+
+#LoginMenu {
+    line-height: 40px;
+    background-color: lightblue;
+    border: 10px dotted deepskyblue;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+    padding: 50px;
+    width: 30%;
+    text-align: center;
+}

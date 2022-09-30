@@ -1,0 +1,120 @@
+.grid-container {
+	display: grid;
+	grid-template-columns: 30% auto 30%;
+	font-family: "Mali";
+}
+
+#header{
+	border: 3px dashed darkred;
+	background-color: #D17B9D;
+	grid-column: 1 / span 3;
+	font-size:xx-large;
+	font-weight: bolder;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#left{
+	padding: 10px;
+	background-color: #FFE7C8;
+}
+
+#left > p
+{
+	font-weight: bolder;
+	margin: auto;
+	text-align: center;
+	font-size: larger;
+	text-decoration: underline;
+}
+
+#left > ul > li
+{
+	font-weight: bold;
+}
+
+#left > div > img
+{
+	width: 90%;
+}
+
+#center{
+	padding: 10px;
+}
+
+#center > div{
+text-align: center;
+}
+
+#center > div > img{
+	border: 3px dashed darkred;
+	text-align: center;
+	width: 100%;
+}
+
+#right{
+	background-color: #BFAA8D;
+	padding: 10px;
+}
+
+#right > p
+{
+	font-weight: bolder;
+	margin: auto;
+	text-align: center;
+	font-size: larger;
+	text-decoration: underline;
+}
+
+#right > ol > li > span
+{
+	font-weight: bold;
+}
+
+#right > div > img{
+	width: 100%;
+}
+
+#footer{
+	grid-column: 1 / span 3;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration:none;
+}
+
+@media only screen and (max-width: 768px) {
+	.grid-container {
+
+		display: grid;
+		grid-template-columns: auto auto;
+		font-family: "Mali";
+	}
+
+	#header{
+
+		grid-column: 1 / span 2;
+	}
+	#footer{
+
+		grid-column: 1 / span 2;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.grid-container {
+
+		display: grid;
+		grid-template-columns: auto;
+		font-family: "Mali";
+	}
+	#header{
+
+		grid-column: 1 / span 1;
+	}
+	#footer{
+
+		grid-column: 1 / span 1;
+	}
+}

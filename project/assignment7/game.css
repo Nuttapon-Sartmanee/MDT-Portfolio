@@ -1,0 +1,63 @@
+#game-container {
+	margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#game-layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+
+    border: 3px solid black;
+}
+
+div > #game-layer
+{
+    background-color: #D4FFD0 
+}
+
+fieldset
+{
+    width: 30%;
+    margin-left: auto;
+    margin-Right: auto;
+    margin-top: 100px;
+    border: 2px groove grey;
+    background-color: #FFD0FE;
+}
+
+#timeBar
+{
+    background-color: #FF9B00;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 500px;
+    height: 10px;
+}
+
+.OutTimebar
+{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid black;
+}
+
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue; 
+}
+
+.green{
+    background-color: green; 
+}
